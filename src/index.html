@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="flex bg-zinc-900 justify-around sm:justify-between h-[80px] sm:pl-[60px] sm:pr-[60px] fixed w-full"
+      >
+        <div class="flex items-center justify-center">
+          <a href="#"><img class="w-[55px]" src="/logo/demon.png" /></a>
+        </div>
+        <div class="hidden sm:block">
+          <ul class="flex h-20 items-center space-x-5 text-white sm:text-xl">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#informacion">Información</a></li>
+            <li><a href="#compañeros">Compañeros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="bg-gray-900 h-[700px] flex justify-center items-center bg-gradient-to-b from-zinc-900 via-zinc-800 to-blue-600"
+      >
+        <div>
+          <div class="text-white">
+            <h1
+              class="text-5xl uppercase w-[700px] bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-white font-bold"
+            >
+              Descubre al pilar muichiro tokito
+            </h1>
+            <p class="w-[450px] mt-5">
+              Muichiro Tokito es uno de los personajes principales en la serie y
+              un miembro destacado del Cuerpo de Cazadores de Demonios. Su
+              historia y personalidad aportan profundidad y diversidad al mundo
+              de "Demon Slayer".
+            </p>
+            <button
+              class="bg-white p-1 rounded-lg uppercase w-[100px] mt-5 hover:bg-gradient-to-b from-blue-400 to-white transition-all hover:scale-110 text-black font-bold"
+            >
+              Niebla
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[300px] bg-white h-[370px] rounded-lg flex items-center justify-center hover:scale-105 transition-all"
+        >
+          <div>
+            <div class="flex justify-center">
+              <div class="w-5/6 h-[220px] shadow-sm">
+                <img
+                  class="object-cover w-full h-full flex rounded-lg"
+                  class="w-5/6"
+                  src="/personaje/tokito-demon-slayer.webp"
+                  alt="foto tokito"
+                />
+              </div>
+            </div>
+            <div class="flex justify-center">
+              <div class="flex mt-3 w-5/6 justify-between">
+                <h2
+                  class="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-900 to-blue-500"
+                >
+                  "El pilar de la Niebla"
+                </h2>
+                <button class="bg-zinc-900 rounded-lg w-[40px] text-white">
+                  🌊
+                </button>
+              </div>
+            </div>
+            <div class="flex mx-auto w-5/6 justify-between mt-2">
+              <div class="flex space-x-2">
+                <img class="w-[45px]" src="/logo/demon.png" />
+                <div>
+                  <h4 class="text-zinc-600">Creador</h4>
+                  <h6 class="text-zinc-700">Demon slayer</h6>
+                </div>
+              </div>
+              <div>
+                <h4 class="text-zinc-600">Value</h4>
+                <h6 class="text-zinc-700">9 eth</h6>
+                <span id="informacion"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <article class="bg-blue-600 h-[300px]">
+        <div class="flex justify-center">
+          <h3 class="w-3/6 text-center font-bold text-2xl text-zinc-200">
+            Déjate envolver por el emocionante mundo de 'Demon Slayer: Kimetsu
+            no Yaiba' en nuestra página dedicada a esta exitosa serie de manga y
+            anime. Explora a los valientes Cazadores de Demonios mientras luchan
+            contra poderosas criaturas malignas. Descubre las historias épicas
+            de Tanjiro Kamado y su búsqueda de venganza y redención.
+          </h3>
+        </div>
+      </article>
+      <section id="compañeros">
+        <div
+          class="h-[600px] bg-gradient-to-b from-blue-600 via-zinc-900 to-zinc-900 flex flex-col justify-center items-center"
+        >
+          <!-- Título -->
+          <h2 class="text-4xl font-bold text-white mb-20">
+            Amigos De Batallas
+          </h2>
+          <!-- Contenedor de tarjetas -->
+          <div class="flex justify-around w-5/6">
+            <!-- Tarjeta 1 -->
+            <div
+              class="bg-gradient-to-b from-zinc-900 via-yellow-800 to-yellow-600 w-72 h-72 rounded-xl shadow-lg hover:scale-105 transition-all hover:shadow-xl flex items-center justify-center"
+            >
+              <div class="text-center text-white">
+                <div
+                  class="w-[105px] h-[105px] mx-auto rounded-full bg-white flex items-center"
+                >
+                  <div class="w-24 h-24 mx-auto rounded-full overflow-hidden">
+                    <img
+                      src="/personaje/amiguito.webp"
+                      alt="Banderas fotos"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                <h3 class="mt-4 font-bold">Kotetsu</h3>
+                <p class="mt-2 text-sm w-5/6 mx-auto">
+                  Kotetsu es herrero de espadas que forma parte del Cuerpo de
+                  Cazadores de Demonios de Tokio. Es conocido por ser un bueno
+                  para nada pero buen amigo.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-gradient-to-b from-zinc-900 via-red-800 to-red-600 w-72 h-72 rounded-xl shadow-lg hover:scale-105 transition-all hover:shadow-xl flex items-center justify-center"
+            >
+              <div class="text-center text-white">
+                <div
+                  class="w-[105px] h-[105px] mx-auto rounded-full bg-white flex items-center"
+                >
+                  <div class="w-24 h-24 mx-auto rounded-full overflow-hidden">
+                    <img
+                      src="/personaje/tanjiro.webp"
+                      alt="Banderas fotos"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                <h3 class="mt-4 font-bold">Tanjito Kamado</h3>
+                <p class="mt-2 text-sm w-5/6 mx-auto">
+                  Su historia es el corazón de la trama y sigue su viaje en
+                  busca de venganza y redención después de que su familia fuera
+                  asesinada por demonios.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-gradient-to-b from-zinc-900 via-pink-600 to-pink-400 w-72 h-72 rounded-xl shadow-lg hover:scale-105 transition-all hover:shadow-xl flex items-center justify-center"
+            >
+              <div class="text-center text-white">
+                <div
+                  class="w-[105px] h-[105px] mx-auto rounded-full bg-white flex items-center"
+                >
+                  <div class="w-24 h-24 mx-auto rounded-full overflow-hidden">
+                    <img
+                      src="/personaje/kanroji.avif"
+                      alt="Banderas fotos"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                <h3 class="mt-4 font-bold">Kanroji</h3>
+
+                <p class="mt-2 text-sm w-5/6 mx-auto">
+                  Kanroji Mitsuri también conocida como una Cazadora de
+                  Demonios, y forma parte del Cuerpo de Cazadores de Demonios de
+                  Tokio..
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="contacto"
+        class="h-[700px] bg-zinc-900 flex items-center justify-center"
+      >
+        <div class="flex justify-around w-5/6">
+          <div class="mt-32">
+            <h2 class="text-3xl text-white">Contact Us</h2>
+            <div class="flex space-x-20">
+              <div>
+                <h3 class="mt-10 font-bold text-zinc-200">Arg. Buenos Aires</h3>
+                <div class="flex mt-5 space-x-3">
+                  <img src="/icons/map-pin.svg" alt="pin" />
+                  <h3 class="text-white">Corriente 848</h3>
+                </div>
+                <div class="flex mt-5 space-x-3">
+                  <img src="/icons/mail.svg" alt="pin " />
+                  <h3 class="text-white">Jortegaruiz@nucba.com</h3>
+                </div>
+                <div class="flex mt-5 space-x-3">
+                  <img src="/icons/phone.svg" alt="pin" />
+                  <h3 class="text-white">+54 91138335824</h3>
+                </div>
+              </div>
+              <div>
+                <h3 class="mt-10 font-bold text-zinc-200">Juan Gongora</h3>
+                <div class="flex mt-5 space-x-3">
+                  <img src="/icons/map-pin.svg" alt="icon" />
+                  <h3 class="text-white">Obelisco</h3>
+                </div>
+                <div class="flex mt-5 space-x-3">
+                  <img src="/icons/mail.svg" alt="icon" />
+                  <h3 class="text-white">Jortegaruiz9@gmail.com</h3>
+                </div>
+                <div class="flex mt-5 space-x-3">
+                  <img src="/icons/phone.svg" alt="icon" />
+                  <h3 class="text-white">+593 983883197</h3>
+                </div>
+              </div>
+            </div>
+            <div class="flex mt-10 space-x-4">
+              <img src="/icons/twitter.svg" alt="twitter" />
+              <img src="/icons/instagram.svg" alt="instagram" />
+              <img src="/icons/facebook.svg" alt="facebook" />
+            </div>
+          </div>
+          <div>
+            <img
+              class="w-[400px] rounded-lg"
+              src="/personaje/kimetsu-no-yaiba.jpg"
+              alt="imagen contacto"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="bg-zinc-900 flex justify-center h-[200px] items-center mx-auto"
+    >
+      <div>
+        <a href="#"
+          ><img
+            class="w-[100px] ml-5"
+            src="/logo/demon.png"
+            alt="imagen footer"
+        /></a>
+        <h3 class="text-white mt-2">Demon Slayer App</h3>
+      </div>
+    </footer>
+  </body>
+</html>
