@@ -15,10 +15,12 @@
   <body>
     <header>
       <nav
-        class="flex bg-zinc-900 justify-around sm:justify-between h-[80px] sm:pl-[60px] sm:pr-[60px] fixed w-full"
+        class="flex bg-zinc-900 justify-around sm:justify-between h-[120px] sm:h-[80px] sm:pl-[60px] sm:pr-[60px] fixed w-full"
       >
         <div class="flex items-center justify-center">
-          <a href="#"><img class="w-[55px]" src="/logo/demon.png" /></a>
+          <a href="#"
+            ><img class="w-[100px] sm:w-[55px]" src="/logo/demon.png"
+          /></a>
         </div>
         <div class="hidden sm:block">
           <ul class="flex h-20 items-center space-x-5 text-white sm:text-xl">
@@ -32,66 +34,75 @@
     </header>
     <main>
       <section
-        class="bg-gray-900 h-[700px] flex justify-center items-center bg-gradient-to-b from-zinc-900 via-zinc-800 to-blue-600"
+        class="bg-gray-900 h-[900px] lg:h-[700px] lg:flex justify-center items-center bg-gradient-to-b from-zinc-900 via-zinc-800 to-blue-600"
       >
+        <div class="h-[200px]"></div>
         <div>
           <div class="text-white">
-            <h1
-              class="text-5xl uppercase w-[700px] bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-white font-bold"
-            >
-              Descubre al pilar muichiro tokito
-            </h1>
-            <p class="w-[450px] mt-5">
-              Muichiro Tokito es uno de los personajes principales en la serie y
-              un miembro destacado del Cuerpo de Cazadores de Demonios. Su
-              historia y personalidad aportan profundidad y diversidad al mundo
-              de "Demon Slayer".
-            </p>
-            <button
-              class="bg-white p-1 rounded-lg uppercase w-[100px] mt-5 hover:bg-gradient-to-b from-blue-400 to-white transition-all hover:scale-110 text-black font-bold"
-            >
-              Niebla
-            </button>
+            <div class="flex justify-center lg:flex-none">
+              <h1
+                class="text-4xl w-[450px] sm:text-5xl uppercase sm:w-[700px] bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-white font-bold text-center lg:text-start"
+              >
+                Descubre al pilar muichiro tokito
+              </h1>
+            </div>
+            <div class="flex lg:flex-none justify-center lg:justify-start">
+              <p class="w-[450px] mt-5 text-center lg:text-start">
+                Muichiro Tokito es uno de los personajes principales en la serie
+                y un miembro destacado del Cuerpo de Cazadores de Demonios. Su
+                historia y personalidad aportan profundidad y diversidad al
+                mundo de "Demon Slayer".
+              </p>
+            </div>
+            <div class="flex justify-center lg:justify-start lg:flex-none">
+              <button
+                class="bg-white p-1 rounded-lg uppercase w-[100px] mt-5 hover:bg-gradient-to-b from-blue-400 to-white transition-all hover:scale-110 text-black font-bold mb-20 lg:mb-0"
+              >
+                Niebla
+              </button>
+            </div>
           </div>
         </div>
-        <div
-          class="w-[300px] bg-white h-[370px] rounded-lg flex items-center justify-center hover:scale-105 transition-all"
-        >
-          <div>
-            <div class="flex justify-center">
-              <div class="w-5/6 h-[220px] shadow-sm">
-                <img
-                  class="object-cover w-full h-full flex rounded-lg"
-                  class="w-5/6"
-                  src="/personaje/tokito-demon-slayer.webp"
-                  alt="foto tokito"
-                />
-              </div>
-            </div>
-            <div class="flex justify-center">
-              <div class="flex mt-3 w-5/6 justify-between">
-                <h2
-                  class="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-900 to-blue-500"
-                >
-                  "El pilar de la Niebla"
-                </h2>
-                <button class="bg-zinc-900 rounded-lg w-[40px] text-white">
-                  🌊
-                </button>
-              </div>
-            </div>
-            <div class="flex mx-auto w-5/6 justify-between mt-2">
-              <div class="flex space-x-2">
-                <img class="w-[45px]" src="/logo/demon.png" />
-                <div>
-                  <h4 class="text-zinc-600">Creador</h4>
-                  <h6 class="text-zinc-700">Demon slayer</h6>
+        <div class="flex justify-center">
+          <div
+            class="w-[300px] bg-white h-[370px] rounded-lg flex items-center hover:scale-105 transition-all"
+          >
+            <div>
+              <div class="flex justify-center">
+                <div class="w-5/6 h-[220px] shadow-sm">
+                  <img
+                    class="object-cover w-full h-full flex rounded-lg"
+                    class="w-5/6"
+                    src="/personaje/tokito-demon-slayer.webp"
+                    alt="foto tokito"
+                  />
                 </div>
               </div>
-              <div>
-                <h4 class="text-zinc-600">Value</h4>
-                <h6 class="text-zinc-700">9 eth</h6>
-                <span id="informacion"></span>
+              <div class="flex justify-center">
+                <div class="flex mt-3 w-5/6 justify-between">
+                  <h2
+                    class="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-900 to-blue-500"
+                  >
+                    "El pilar de la Niebla"
+                  </h2>
+                  <button class="bg-zinc-900 rounded-lg w-[40px] text-white">
+                    🌊
+                  </button>
+                </div>
+              </div>
+              <div class="flex mx-auto w-5/6 justify-between mt-2">
+                <div class="flex space-x-2">
+                  <img class="w-[45px]" src="/logo/demon.png" />
+                  <div>
+                    <h4 class="text-zinc-600">Creador</h4>
+                    <h6 class="text-zinc-700">Demon slayer</h6>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="text-zinc-600">Value</h4>
+                  <h6 class="text-zinc-700">9 eth</h6>
+                  <span id="informacion"></span>
+                </div>
               </div>
             </div>
           </div>
@@ -99,7 +110,9 @@
       </section>
       <article class="bg-blue-600 h-[300px]">
         <div class="flex justify-center">
-          <h3 class="w-3/6 text-center font-bold text-2xl text-zinc-200">
+          <h3
+            class="w-3/6 text-center font-bold lg:text-2xl text-zinc-200 mt-20 text-md"
+          >
             Déjate envolver por el emocionante mundo de 'Demon Slayer: Kimetsu
             no Yaiba' en nuestra página dedicada a esta exitosa serie de manga y
             anime. Explora a los valientes Cazadores de Demonios mientras luchan
